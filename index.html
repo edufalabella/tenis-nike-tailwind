@@ -5,13 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-    <!-- Tag do Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Tenis Nike</title>
 </head>
+<body class="w-full h-full overflow-hidden">
+    <div class="w-full h-screen bg-slate-300 flex items-center justify-center p-3">
+        <main class="bg-white h-[540px] w-full max-w-4xl shadow-lg flex flex-col md:flex-row items-center justify-center">
+            <div class="w-full md:w-1/2 h-full flex items-center justify-center flex-col">
+                <div class="w-full">
+                   <h3 class="hidden md:block text-sm ml-4 font-bold mt-4">Website 4you</h3> 
+                </div>
+                
+                <!-- Item laçamento Nike -->
+                <div class="w-full h-full flex items-center justify-center">
+                    <div class="mb-2">
+                        <h1 class="text-5xl font-bold mb-2 select-none">Lançamento<br>
+                            <p class="animate-float inline-block">Nike Air</p>
+                        </h1>
+                        <p class="mb-1">O tênis do futuro.</p>
+                        <p class="mb-7">O futuro a um passo de seu alcance!</p>
+                        <a href="#" class="font-bold bg-zinc-800 text-white py-2 px-5 border-2 border-zinc-800 duration-300 hover:bg-white hover:text-zinc-800">QUERO CONHECER</a>
+                    </div>
+                </div>
+            </div>
 
-<body>
+            <!-- Efeito 3d tenis -->
+
+            <div class="h-full w-full md:w-1/2 flex items-center justify-center bg-[url('../src/assets/image/bg.png')] bg-no-repeat bg-center bg-cover">
+              <img src="./src/assets/image/tenis.png" alt="Tenis Nike Air" class="max-w-lg w-11/12 md:w-full object-cover z-30 hover:rotate-6 hover:scale-110 md:hover:scale-125 duration-300">
+
+
+
+            </div>
+
+        </main>
+    </div>
     
 </body>
 </html>

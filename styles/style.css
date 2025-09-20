@@ -1,5 +1,24 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 @import "tailwindcss";
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+/* Animação só ativa no hover */
+.animate-float {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.animate-float:hover {
+    animation: floatAnimation 2.5s ease-in-out infinite;
+}
