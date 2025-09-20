@@ -1,4 +1,4 @@
-# 🏀 Site Tenis Nike (Exemplo Educacional)
+# Site Tenis Nike 
 
 Este repositório contém um **site de demonstração** desenvolvido com **HTML** e **TailwindCSS**, simulando uma página de lançamento de produto (Tênis Nike Air).  
 ⚠️ **Atenção:** Este projeto é **exclusivamente para fins educacionais**. Não possui qualquer vínculo oficial com a marca **Nike** ou com a comercialização de produtos.
@@ -35,3 +35,4 @@ Este projeto foi criado com o propósito de:
 ---
 
 ✍️ Desenvolvido para fins educacionais.  
+
